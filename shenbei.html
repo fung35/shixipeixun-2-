@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .header,.footer {
+            height: 60px;
+            background-color: dimgray;
+            text-align: center;
+            line-height: 60px;
+        }
+        .footer {
+            clear: both;
+        }
+        #box {
+            padding-left: 200px;
+            padding-right: 150px;
+        }
+        #box .qy {
+            float: left;
+            height: 300px;
+            text-align: center;
+            line-height: 300px;
+        }
+        #center {
+            width: 100%;
+            background-color: red;
+        }
+        #left {
+            width: 200px;
+            margin-left: -200px;
+            background-color: skyblue;
+        }
+        #right {
+            width: 150px;
+            margin-right: -150px;
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">头部区域</div>
+<div id="box">
+    <div id="left" class="qy">左区域</div>
+    <div id="center" class="qy">中区域</div>
+    <div id="right" class="qy">右区域</div>
+</div>
+<div class="footer">尾部区域</div>
+
+</body>
+</html>
